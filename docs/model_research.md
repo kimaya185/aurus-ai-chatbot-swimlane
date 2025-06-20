@@ -82,7 +82,7 @@ The models were evaluated based on:
 
 - Gemini 1.5 Pro Outlook: Gemini 1.5 Pro impressed with its long context handling and potential for multimodal integration, including diagrams and OpenAPI schemas. Yet, its limited compatibility with LangChain and emerging support status presented short-term hurdles.
 
-Final Justification: GPT-3.5 Turbo stands out for its:
+**🔍Final Justification: GPT-3.5 Turbo stands out for its:**
 
 Seamless LangChain integration (reducing development time)
 Supportive cost for agile experimentation
