@@ -93,12 +93,3 @@ The models were evaluated based on:
 - **LLM QA Agent Survey**: *A Survey of Large Language Model Agents for Question Answering* — Comprehensive study of architectures for QA agents using LLMs. [arXiv:2402.08676](https://arxiv.org/abs/2402.08676)
 
 
-### 📌 Where to Add
-
-Include this document in the GitHub repo under a new folder:
-
-Also reference this file in your main `README.md` under a section like:
-
-```markdown
-### 🔍 Research & Model Justification
-See [/docs/model_research.md](docs/model_research.md) for detailed model comparison and selection.
