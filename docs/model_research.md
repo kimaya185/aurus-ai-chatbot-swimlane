@@ -72,15 +72,15 @@ The models were evaluated based on:
 
 ---
 ### Summary & Recommendation
--Evaluation Metrics Focus: Based on criteria like cost efficiency, integration simplicity, reasoning capability, and latency benchmarks (as captured in FlowBench and LMSYS Chatbot Arena), GPT-3.5 Turbo emerged as the most balanced choice for the current stage of development.
+- Evaluation Metrics Focus: Based on criteria like cost efficiency, integration simplicity, reasoning capability, and latency benchmarks (as captured in FlowBench and LMSYS Chatbot Arena), GPT-3.5 Turbo emerged as the most balanced choice for the current stage of development.
 
--Prototype Testing Outcome: GPT-3.5 Turbo provided consistent and quick responses when tested with two swimlane flows—"Order Processing" and "Credit Card Approval." It effectively handled domain-specific vocabulary and maintained coherent flow interpretation.
+- Prototype Testing Outcome: GPT-3.5 Turbo provided consistent and quick responses when tested with two swimlane flows—"Order Processing" and "Credit Card Approval." It effectively handled domain-specific vocabulary and maintained coherent flow interpretation.
 
--GPT-4.1 Consideration: While GPT-4.1 demonstrated superior reasoning and understanding in research (e.g., FlowBench), its high latency and token costs make it less practical for iterative prototyping. It could be adopted in production for critical workflows requiring high decision integrity.
+- GPT-4.1 Consideration: While GPT-4.1 demonstrated superior reasoning and understanding in research (e.g., FlowBench), its high latency and token costs make it less practical for iterative prototyping. It could be adopted in production for critical workflows requiring high decision integrity.
 
--Claude 3 Sonnet Strength: Claude 3 Sonnet showed reliable accuracy and safety in decision-heavy workflows. It was particularly promising in structured rule-based Q&A. However, access restrictions and cost positioned it as a future upgrade option rather than an immediate solution.
+- Claude 3 Sonnet Strength: Claude 3 Sonnet showed reliable accuracy and safety in decision-heavy workflows. It was particularly promising in structured rule-based Q&A. However, access restrictions and cost positioned it as a future upgrade option rather than an immediate solution.
 
--Gemini 1.5 Pro Outlook: Gemini 1.5 Pro impressed with its long context handling and potential for multimodal integration, including diagrams and OpenAPI schemas. Yet, its limited compatibility with LangChain and emerging support status presented short-term hurdles.
+- Gemini 1.5 Pro Outlook: Gemini 1.5 Pro impressed with its long context handling and potential for multimodal integration, including diagrams and OpenAPI schemas. Yet, its limited compatibility with LangChain and emerging support status presented short-term hurdles.
 
 Final Justification: GPT-3.5 Turbo stands out for its:
 
