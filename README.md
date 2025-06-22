@@ -59,3 +59,29 @@ Each flow is converted into a JSON structure that enables the chatbot to reason 
 ```bash
 pip install -r requirements.txt
 streamlit run src/app.py
+
+### 🎥 Demo Video
+Walkthrough of querying 3 workflows with diverse questions.
+
+Shows how the chatbot reasons based on actor roles, conditions, and flow transitions.
+
+📺 [Demo link to be inserted]
+
+### 🔗 Live App
+
+Try the chatbot live on Streamlit:
+
+🌍 [Launch Aurus Help Bot](https://your-streamlit-link.streamlit.app)
+
+---
+
+### 📖 Research & Model Justification
+
+A comparative analysis of multiple LLMs (GPT-4.1, Claude 3, Gemini, Mistral) was conducted.
+
+🧾 See [/docs/model_research.md](docs/model_research.md) for detailed insights on:
+
+- Evaluation criteria (cost, latency, context size, reasoning)
+- Model benchmarks and performance tradeoffs
+- Final justification for selecting GPT-3.5 Turbo
+
