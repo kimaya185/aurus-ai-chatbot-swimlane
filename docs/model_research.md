@@ -71,6 +71,19 @@ The models were evaluated based on:
 | Mistral 7B      | Medium   | Low       | ~4k tokens    | Free   | ✅ HuggingFace |
 
 ---
+
+#### ✅ Final Selection Matrix
+
+| Metric              | GPT-3.5 Turbo | GPT-4.1       | Claude 3 Sonnet | Gemini 1.5 Pro | Mistral 7B           |
+|---------------------|---------------|---------------|------------------|----------------|----------------------|
+| **Cost Efficiency** | ✅ Very High   | ❌ Expensive   | ❌ Expensive      | ⚠️ Moderate    | ✅ Free (self-hosted) |
+| **Reasoning**       | ✅ Good        | ✅✅ Excellent  | ✅ Excellent      | ✅ Excellent   | ⚠️ Basic             |
+| **Integration**     | ✅ Seamless    | ✅ Seamless    | ⚠️ Limited        | ⚠️ Limited     | ✅ Hugging Face       |
+| **Latency**         | ✅ Fast        | ⚠️ Slower      | ✅ Fast           | ⚠️ Variable    | ⚠️ Depends on setup  |
+| **Context Size**    | ✅ ~16k tokens | ✅ ~128k       | ✅ ~200k          | ✅ ~1M tokens  | ⚠️ ~4k tokens         |
+
+
+---
 ### Summary & Recommendation
 - Evaluation Metrics Focus: Based on criteria like cost efficiency, integration simplicity, reasoning capability, and latency benchmarks (as captured in FlowBench and LMSYS Chatbot Arena), GPT-3.5 Turbo emerged as the most balanced choice for the current stage of development.
 
