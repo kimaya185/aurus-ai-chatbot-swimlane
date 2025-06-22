@@ -56,9 +56,11 @@ Each flow is converted into a JSON structure that enables the chatbot to reason 
 
 ## 🚀 How to Run
 
-```bash
+
 pip install -r requirements.txt
 streamlit run src/app.py
+
+---
 
 ### 🎥 Demo Video
 Walkthrough of querying 3 workflows with diverse questions.
@@ -66,6 +68,8 @@ Walkthrough of querying 3 workflows with diverse questions.
 Shows how the chatbot reasons based on actor roles, conditions, and flow transitions.
 
 📺 [Demo link to be inserted]
+
+---
 
 ### 🔗 Live App
 
@@ -84,4 +88,7 @@ A comparative analysis of multiple LLMs (GPT-4.1, Claude 3, Gemini, Mistral) was
 - Evaluation criteria (cost, latency, context size, reasoning)
 - Model benchmarks and performance tradeoffs
 - Final justification for selecting GPT-3.5 Turbo
+
+---
+```bash
 
