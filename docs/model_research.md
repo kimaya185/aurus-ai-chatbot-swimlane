@@ -117,7 +117,7 @@ A future-facing option for companies needing to parse diagrams, API specificatio
 These models come at a premium cost but significantly expand the use-case envelope, especially when chatbot performance is linked to revenue, support automation, or critical workflows.
 
 
-### 📚 Benchmark References (Optional but Impressive)
+### 📚 Benchmark References 
 
 - **HELM Leaderboard:** Offers head-to-head performance on tasks like QA, summarization, and safety: [https://crfm.stanford.edu/helm/latest/](https://crfm.stanford.edu/helm/latest/)
 - **LMSYS Chatbot Arena:** Crowd-ranked comparisons of models (e.g., GPT-4.1, Claude 3, Gemini): [https://chat.lmsys.org](https://chat.lmsys.org)
