@@ -91,7 +91,7 @@ The models were evaluated based on:
 
 - **GPT-4.1 Consideration:** While GPT-4.1 demonstrated superior reasoning and understanding in research (e.g., FlowBench), its high latency and token costs make it less practical for iterative prototyping. It could be adopted in production for critical workflows requiring high decision integrity.
 
--**Claude 3 Sonnet Strength:** Claude 3 Sonnet showed reliable accuracy and safety in decision-heavy workflows. It was particularly promising in structured rule-based Q&A. However, access restrictions and cost positioned it as a future upgrade option rather than an immediate solution.
+- **Claude 3 Sonnet Strength:** Claude 3 Sonnet showed reliable accuracy and safety in decision-heavy workflows. It was particularly promising in structured rule-based Q&A. However, access restrictions and cost positioned it as a future upgrade option rather than an immediate solution.
 
 - **Gemini 1.5 Pro Outlook:** Gemini 1.5 Pro impressed with its long context handling and potential for multimodal integration, including diagrams and OpenAPI schemas. Yet, its limited compatibility with LangChain and emerging support status presented short-term hurdles.
 
