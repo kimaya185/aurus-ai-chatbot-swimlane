@@ -6,7 +6,7 @@ A domain-specific AI assistant designed to answer queries from structured and un
 
 ## 📌 Problem Statement
 
-Build a chatbot that can respond to client questions using development portal data — including text, swimlane flows, OpenAPI specs, etc. The chatbot must parse and understand different data formats with high accuracy (90%+).
+Build a chatbot that can respond to client questions using development portal data including text, swimlane flows, OpenAPI specs, etc. The chatbot must parse and understand different data formats with high accuracy (90%+).
 
 ---
 
