@@ -3,7 +3,7 @@ import streamlit as st
 import json
 import os
 from dotenv import load_dotenv
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.docstore.document import Document
 
