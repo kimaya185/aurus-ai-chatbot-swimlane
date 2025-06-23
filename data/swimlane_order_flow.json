@@ -1,0 +1,24 @@
+[
+  {"step": 1, "actor": "Customer", "action": "Places a product order"},
+  {"step": 2, "actor": "Sales", "action": "Confirms order is received"},
+  {"step": 3, "actor": "Stocks", "action": "Checks product availability"},
+  {
+    "step": 4,
+    "condition": "Is product in stock?",
+    "yes": "Proceed to finance check",
+    "no": "Cancel the order"
+  },
+  {
+    "step": 5,
+    "actor": "Finance",
+    "action": "Checks credit card validity"
+  },
+  {
+    "step": 6,
+    "condition": "Is card valid?",
+    "yes": "Process payment and deliver",
+    "no": "Cancel the order"
+  },
+  {"step": 7, "actor": "Stocks", "action": "Delivers the product"},
+  {"step": 8, "actor": "Customer", "action": "Receives the order"}
+]

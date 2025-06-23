@@ -1,0 +1,17 @@
+[
+  {"step": 1, "actor": "Customer", "action": "Customer Buys Product"},
+  {"step": 2, "actor": "Customer", "action": "Fills Credit Form"},
+  {"step": 3, "actor": "Sales", "action": "Sales Call"},
+  {"step": 4, "actor": "Sales", "action": "Order Entry"},
+  {"step": 5, "actor": "Sales", "action": "Processes Order Form"},
+  {"step": 6, "actor": "Management", "action": "Set Credit Criteria"},
+  {"step": 7, "actor": "Credit Department", "action": "Perform Credit Check"},
+  {"step": 8, "actor": "Decision", "condition": "Is Credit OK?"},
+  {"step": 9, "actor": "Sales", "action": "Sale Not Approved", "condition": "if Bad Credit"},
+  {"step": 10, "actor": "Credit Department", "action": "Check Accounts Receivable Balance", "condition": "if OK"},
+  {"step": 11, "actor": "Decision", "condition": "Is Balance OK?"},
+  {"step": 12, "actor": "Management", "action": "Credit Issue Report", "condition": "if Not OK"},
+  {"step": 13, "actor": "Credit Department", "action": "Calculate Credit Terms", "condition": "if OK"},
+  {"step": 14, "actor": "Management", "action": "Approve Terms"},
+  {"step": 15, "actor": "Sales", "action": "Sale Approved"}
+]

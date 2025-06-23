@@ -1,0 +1,12 @@
+[
+  {"step": 1, "actor": "Receiving", "action": "Goods are received at dock"},
+  {"step": 2, "actor": "Receiving", "action": "Inspect goods"},
+  {"step": 3, "actor": "Decision", "condition": "Contents match order?"},
+  {"step": 4, "actor": "Purchasing", "action": "Advise supplier of rejection", "condition": "No"},
+  {"step": 5, "actor": "Purchasing", "action": "Delivery failed", "condition": "No"},
+  {"step": 6, "actor": "Quality Assurance", "action": "Perform quality check", "condition": "Yes"},
+  {"step": 7, "actor": "Decision", "condition": "Goods are accepted?"},
+  {"step": 8, "actor": "Quality Assurance", "action": "Issue rejection notice", "condition": "No"},
+  {"step": 9, "actor": "Quality Assurance", "action": "Delivery failed", "condition": "No"},
+  {"step": 10, "actor": "Warehouse", "action": "Receiving notifies warehouse to pick up", "condition": "Yes"}
+]
