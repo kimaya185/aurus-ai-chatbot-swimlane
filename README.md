@@ -57,8 +57,9 @@ Each flow is converted into a JSON structure that enables the chatbot to reason 
 ## 🚀 How to Run
 
 
-pip install -r requirements.txt
-streamlit run src/app.py
+-pip install -r requirements.txt
+
+-streamlit run src/app.py
 
 ---
 
