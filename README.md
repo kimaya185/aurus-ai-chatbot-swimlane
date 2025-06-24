@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🧠 Aurus Help Bot
 
 A domain-specific AI assistant designed to answer queries from structured and unstructured workflows and documentation using natural language understanding. Built with LangChain, Streamlit, and OpenAI.
