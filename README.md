@@ -77,9 +77,7 @@ Shows how the chatbot reasons based on actor roles, conditions, and flow transit
 
 Try the chatbot live on Streamlit:
 
-🌍 [Launch Aurus Help Bot](https://your-streamlit-link.streamlit.app)
-
----
+🌍 [Launch Aurus Help Bot](https://aurus-ai-chatbot-swimlane-we2u4m8c4ggraeflv3vmrq.streamlit.app/)
 
 ### 📖 Research & Model Justification
 
