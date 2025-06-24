@@ -75,7 +75,7 @@ Walkthrough of querying 3 workflows with diverse questions.
 
 Shows how the chatbot reasons based on actor roles, conditions, and flow transitions.
 
-📺 [Demo link to be inserted]
+📺 https://www.loom.com/share/1309aa14393945c09eb7916a3d3766ec?sid=a0f9fb81-5aa7-4f72-9c99-372875b950e0
 
 ---
 
