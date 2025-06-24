@@ -132,9 +132,7 @@ These models come at a premium cost but significantly expand the use-case envelo
 - **LLM QA Agent Survey**: *A Survey of Large Language Model Agents for Question Answering* — Comprehensive study of architectures for QA agents using LLMs. [arXiv:2402.08676](https://arxiv.org/abs/2402.08676)
 
 
-<<<<<<< HEAD
+
 =======
 ```markdown
-### 🔍 Research & Model Justification
-See [/docs/model_research.md](docs/model_research.md) for detailed model comparison and selection.
->>>>>>> 737ce9e (Add src/app.py and project files)
+
