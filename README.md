@@ -4,7 +4,13 @@
 A domain-specific AI assistant designed to answer queries from structured and unstructured workflows and documentation using natural language understanding. Built with LangChain, Streamlit, and OpenAI.
 
 ---
+### 🔗 Live App
 
+Try the chatbot live on Streamlit:
+
+🌍 [Launch Aurus Help Bot](https://aurus-ai-chatbot-swimlane-we2u4m8c4ggraeflv3vmrq.streamlit.app/)
+
+---
 ## 📌 Problem Statement
 
 Build a chatbot that can respond to client questions using development portal data including text, swimlane flows, OpenAPI specs, etc. The chatbot must parse and understand different data formats with high accuracy (90%+).
@@ -73,11 +79,6 @@ Shows how the chatbot reasons based on actor roles, conditions, and flow transit
 
 ---
 
-### 🔗 Live App
-
-Try the chatbot live on Streamlit:
-
-🌍 [Launch Aurus Help Bot](https://aurus-ai-chatbot-swimlane-we2u4m8c4ggraeflv3vmrq.streamlit.app/)
 
 ### 📖 Research & Model Justification
 
